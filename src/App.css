@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-expand{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #070708;
+}
+
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+html ::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: #4853c7;
+}
+html ::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+html ::selection {
+  color: #ededed;
+  background-color: #4853c7;
+}
+
+
+.nav-link:hover{
+  color: #5260ff !important;
+}
+
+.navbar-expand::backdrop{
+  color: #5260ff !important;
+}
+
+button{
+  background-color: #5260ff !important;
+  border: #5260ff !important;
+}
+
+.barradenavegar {
+  color: #ededed;
+  margin: 0;
+}
+
+.navbar-expand {
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 80px;
+}
+
+.footer {
+  display: inline;
+  margin: 0px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerrodape {
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+}
+
+.h2-cabecalho {
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem 2rem 0rem;
+  color: #ededed;
+}
+
+.cabecalho {
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.c-item{
+  height: 50px;
+}
+
+.c-img{
+  object-fit: cover;
+  max-height: 770px;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.home {
+  margin: 0;
+  padding: 0;
+  background-color:#070708;
+  color: #ededed;
+}
+
+.h1-home {
+  font-weight: 900;
+  padding: 25px;
+}
+
+.p-home {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+.descubra-titulo{
+  text-align: center;
+  font-weight: 900;
+}
+
+.descubra-texto{
+  text-align: center;
+  font-weight: 600;
+}
+
+.card {
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 20px 40px 20px;
+  border-left: 0;
+}
+
+.card-group {
+  margin-bottom: 30px;
+}
+
+.mb-3{
+  margin: 0;
+  padding: 0;
+}
+
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; /* Ocupa o espaço restante verticalmente */
+}
+
+/* Footer.css */
+
+.ms-auto {
+  align-items: center;
+  justify-content: center;
+  color: #5260ff;
+}
+
+.sitenav {
+  font-size: 5000000000000px;
+}
+
+h2 {
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos do rodapé para telas menores, com largura igual ou inferior a 375 pixels */
+@media (max-width: 375px) {
+  .footer {
+    padding: 5px; /* Reduza o preenchimento para telas menores */
+    font-size: 14px; /* Reduza o tamanho da fonte */
+  }
+}
+
+.descubra {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.descubra-titulo{
+  text-align: center;
+  font-weight: 900;
+}
+
+.descubra-texto{
+  text-align: center;
+  font-weight: 600;
+}
+
+.main {
+  background-color:#070708;
+}
+
+.card {
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 20px 40px 20px;
+  border-left: 0;
+}
+
+.card-group {
+  margin-bottom: 30px;
+}
+
+.mb-3{
+  padding: 1.5rem;
+  margin: 10px;
+}
+
+.c-img{
+  object-fit: cover;
+  max-height: 770px;
+  max-width: 100%;
+}
+
+/* O react que fez esse CSS
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}*/
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-body-dark {
+  background-color: #070708;
+  color: #ededed;
+}
+
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: rgb(255 255 255 / 90%);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.md-auto {
+  color: #ffffff;
+}
+
+.cabeca {
+  background-color: #070708;
+}
